@@ -6,9 +6,9 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20180902120538.1"><vh>@settings</vh>
-<v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="leo.20210416104628.1"><vh>@settings</vh>
+<v t="leo.20210416104628.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="leo.20210416104628.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
 <v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
@@ -73,82 +73,6 @@
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.2"></t>
-<t tx="leo.20180902120538.1"></t>
-<t tx="leo.20180902120538.2">QTreeWidget {
-    /* These apply to the selected item, but not to editing items.*/
-    background-color: #ffffec; /* Leo's traditional tree color */
-    selection-color: black; /* was white */
-    selection-background-color: lightgrey;
-    /* font-family: SansSerif; */
-    /*font-family: DejaVu Sans Mono;*/
-    font-family:YaHei Mono;
-    /* 標題字型大小設定 */
-    font-size: 20px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal, italic,oblique */
- }
-
-/* Headline edit widgets */
-QTreeWidget QLineEdit {
-    background-color: cornsilk;
-    selection-color: white;
-    selection-background-color: blue;
-    /*font-family: DejaVu Sans Mono;*/    
-    font-family:YaHei Mono;
-    /* 沒有特別對應字型大小 */
-    font-size: 20px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal, italic,oblique */
-}
-
-/* The log panes */
-QTextEdit {
-    background-color: #f2fdff;
-    selection-color: red;
-    selection-background-color: blue;
-    /* font-family: Courier New; */
-    font-family:YaHei Mono;
-    /* log font 大小 */
-    font-size: 20px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal, italic,oblique */
-}
-
-/* The body pane */
-QTextEdit#richTextEdit {
-    background-color: #fdf5f5; /* A kind of pink. */
-    selection-color: white;
-    selection-background-color: red;
-    /*font-family: DejaVu Sans Mono;*/
-    /* font-family: Courier New; */
-    font-family:YaHei Mono;
-    /* 內文字型大小 */
-    font-size: 20px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal,italic,oblique */
-}
-
-QLabel {
-    font-family:YaHei Mono;'CherryPy', 'pytz', 'mako', 'beautifulsoup4', 'pymysql', 'peewee'
-    /* 下方的 Minibuffer 標題字型大小 */
-    font-size: 20px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal,italic,oblique */
-}
-
-/* Editor labels */
-QLineEdit#editorLabel {
-    background-color: #ffffec;
-    font-family:YaHei Mono;
-    /* 沒有直接對應字型大小 */
-    font-size: 20px;
-    font-weight: normal; /* normal,bold,100,..,900 */
-    font-style: normal; /* normal,italic,oblique */
-    border: 2px;
-    margin: 2px;
-}</t>
-<t tx="leo.20180902120538.3">horizontal: body pane to the left
-vertical: body pane on the botton</t>
 <t tx="leo.20200818165234.1">@language xml
 @tabwidth -4
 @others</t>
@@ -209,9 +133,9 @@ vertical: body pane on the botton</t>
 &lt;/div&gt;</t>
 <t tx="leo.20200818170328.1">&lt;section&gt;
     &lt;a href="https://revealjs.com"&gt;
-        &lt;img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
+        &lt;img src="https://img.toy-people.com/member/161578746821.jpg" alt="reveal.js logo" style="height: 270px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
     &lt;/a&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;h3&gt;2021&lt;/h3&gt;
     &lt;p&gt;
         &lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; and &lt;a href="https://github.com/hakimel/reveal.js/graphs/contributors"&gt;contributors&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
@@ -220,8 +144,8 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200818170535.1">&lt;section&gt;
     &lt;h2&gt;Hello There&lt;/h2&gt;
-    &lt;p&gt;
-        reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+    &lt;p&gt;50933103
+       
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -648,5 +572,81 @@ console.log( '"customevent" has fired' );
         - &lt;a href="https://github.com/hakimel/reveal.js"&gt;Source code &amp;amp; documentation&lt;/a&gt;
     &lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20210416104628.1"></t>
+<t tx="leo.20210416104628.2">QTreeWidget {
+    /* These apply to the selected item, but not to editing items.*/
+    background-color: #ffffec; /* Leo's traditional tree color */
+    selection-color: black; /* was white */
+    selection-background-color: lightgrey;
+    /* font-family: SansSerif; */
+    /*font-family: DejaVu Sans Mono;*/
+    font-family:YaHei Mono;
+    /* 標題字型大小設定 */
+    font-size: 20px;
+    font-weight: normal; /* normal,bold,100,..,900 */
+    font-style: normal; /* normal, italic,oblique */
+ }
+
+/* Headline edit widgets */
+QTreeWidget QLineEdit {
+    background-color: cornsilk;
+    selection-color: white;
+    selection-background-color: blue;
+    /*font-family: DejaVu Sans Mono;*/    
+    font-family:YaHei Mono;
+    /* 沒有特別對應字型大小 */
+    font-size: 20px;
+    font-weight: normal; /* normal,bold,100,..,900 */
+    font-style: normal; /* normal, italic,oblique */
+}
+
+/* The log panes */
+QTextEdit {
+    background-color: #f2fdff;
+    selection-color: red;
+    selection-background-color: blue;
+    /* font-family: Courier New; */
+    font-family:YaHei Mono;
+    /* log font 大小 */
+    font-size: 20px;
+    font-weight: normal; /* normal,bold,100,..,900 */
+    font-style: normal; /* normal, italic,oblique */
+}
+
+/* The body pane */
+QTextEdit#richTextEdit {
+    background-color: #fdf5f5; /* A kind of pink. */
+    selection-color: white;
+    selection-background-color: red;
+    /*font-family: DejaVu Sans Mono;*/
+    /* font-family: Courier New; */
+    font-family:YaHei Mono;
+    /* 內文字型大小 */
+    font-size: 20px;
+    font-weight: normal; /* normal,bold,100,..,900 */
+    font-style: normal; /* normal,italic,oblique */
+}
+
+QLabel {
+    font-family:YaHei Mono;'CherryPy', 'pytz', 'mako', 'beautifulsoup4', 'pymysql', 'peewee'
+    /* 下方的 Minibuffer 標題字型大小 */
+    font-size: 20px;
+    font-weight: normal; /* normal,bold,100,..,900 */
+    font-style: normal; /* normal,italic,oblique */
+}
+
+/* Editor labels */
+QLineEdit#editorLabel {
+    background-color: #ffffec;
+    font-family:YaHei Mono;
+    /* 沒有直接對應字型大小 */
+    font-size: 20px;
+    font-weight: normal; /* normal,bold,100,..,900 */
+    font-style: normal; /* normal,italic,oblique */
+    border: 2px;
+    margin: 2px;
+}</t>
+<t tx="leo.20210416104628.3">horizontal: body pane to the left
+vertical: body pane on the botton</t>
 </tnodes>
 </leo_file>
